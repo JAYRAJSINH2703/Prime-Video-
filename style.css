@@ -71,6 +71,7 @@ li img {
 
 .dropdown {
   position: relative;
+
 }
 
 .language {
@@ -109,7 +110,6 @@ a:hover {
   position: absolute;
   column-count: 2;
   left: 800px;
-
   backdrop-filter: blur(10px);
 }
 
@@ -141,16 +141,16 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-.movie-img img{
+.movie-img img {
   top: 170px;
-  width:250px;
+  width: 250px;
   height: 200px;
   margin-left: 30px;
- 
-  position:absolute;
+
+  position: absolute;
 }
 
-.rank{
+.rank {
   position: absolute;
   color: #36f1a3;
   top: 370px;
@@ -161,8 +161,8 @@ a:hover {
   font-size: 22px;
 }
 
-.btn{
-  background-color: #32363A;
+.btn {
+  background-color: #32363a;
   color: white;
   height: 60px;
   width: 90px;
@@ -171,15 +171,14 @@ a:hover {
   position: absolute;
   top: 500px;
   margin-left: 50px;
-
 }
 
-.button{
+.button {
   display: flex;
 }
-.btn-2{
+.btn-2 {
   color: white;
-  background-color:#32363A;
+  background-color: #32363a;
   height: 60px;
   width: 60px;
   border: none;
@@ -189,22 +188,48 @@ a:hover {
   margin-left: 150px;
   border-radius: 50%;
   font-size: 30px;
-
 }
 
-.down{
+.down {
   position: relative;
 }
 
-.c{
+.c {
   position: absolute;
-   color: white;
+  color: white;
   top: 350px;
   margin-left: 50px;
   margin-top: 20px;
   /* display: none; */
 }
 
-.dowm:hover .c{
+.down:hover .c {
   display: block;
+}
+
+.discription {
+  color: white;
+  position: absolute;
+  display: flex;
+  top: 580px;
+  margin-left: 50px;
+  gap: 10px;
+}
+
+.bag {
+  color: yellow;
+}
+
+.btn-3 {
+  color: white;
+  background-color: #32363a;
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 500px;
+  margin-left: 220px;
+  border-radius: 50%;
+  font-size: 30px;
 }
