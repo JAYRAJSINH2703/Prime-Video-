@@ -1,164 +1,671 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Primevideo</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primevideo</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <ul class="left-side">
-        <li>
-          <img
-            src="https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png"
-            alt="logo"
-          />
-        </li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Free to me</a></li>
-        <li><a href="">Movies</a></li>
-        <li><a href="">TV shows</a></li>
-        <li><i class="ri-function-add-line"></i></li>
-        <li><a href="">Subscription</a></li>
-      </ul>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-      <ul class="right-side">
-        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <li class="dropdown">
-          <a href="">EN <i class="fa-solid fa-caret-down"></i></a>
-          <div class="language">
-            <a href="#">Bahasa Indonesia</a>
-            <a href="#">Bahasa Melayu</a>
-            <a href="#">Dansk</a>
-            <a href="#">Deutsch</a>
-            <a href="#">English</a>
-            <a href="#">Español</a>
-            <a href="#">Español Latinoamérica</a>
-            <a href="#">Français</a>
+<body>
 
-            <a href="#">Italiano</a>
-            <a href="#">Magyar</a>
-            <a href="#">Nederlands</a>
-            <a href="#">Norsk</a>
-            <a href="#">Polski</a>
-            <a href="#">Português (Brasil)</a>
-            <a href="#">Português (Portugal)</a>
-            <a href="#">Română</a>
+  <header>
+    <ul class="left-side">
+      <li>
+        <img src="https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png" alt="logo" />
+      </li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Free to me</a></li>
+      <li><a href="">Movies</a></li>
+      <li><a href="">TV shows</a></li>
+      <li><i class="ri-function-add-line"></i></li>
+      <li><a href="">Subscription</a></li>
+    </ul>
 
-            <a href="#">Suomi</a>
-            <a href="#">Svenska</a>
-            <a href="#">Türkçe</a>
-            <a href="#">Wikang Filipino</a>
-            <a href="#">Čeština</a>
-            <a href="#">Ελληνικά</a>
-            <a href="#">Русский</a>
-            <a href="#">עברית</a>
+    <ul class="right-side">
+      <li><i class="fa-solid fa-magnifying-glass"></i></li>
 
-            <a href="#">العربية</a>
-            <a href="#">हिंदी</a>
-            <a href="#">தமிழ்</a>
-            <a href="#">తెలుగు</a>
-            <a href="#">ไทย</a>
-            <a href="#">한국어</a>
-            <a href="#">日本語</a>
-            <a href="#">简体中文</a>
-            <a href="#">繁體中文</a>
-          </div>
-        </li>
+      <li class="dropdown">
+        <a href="">EN <i class="fa-solid fa-caret-down"></i></a>
+        <div class="language">
+          <a href="#">Bahasa Indonesia</a>
+          <a href="#">Bahasa Melayu</a>
+          <a href="#">Dansk</a>
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+          <a href="#">Español Latinoamérica</a>
+          <a href="#">Français</a>
 
-        <li class="gird">
-          <a href=""><i class="fa-solid fa-grip"></i></a>
-          <div class="genres">
-            <a href="">Action and advanture</a>
-            <a href="">Anime</a>
-            <a href="">comedy</a>
-            <a href="">Documentry</a>
-            <a href="">Drama</a>
-            <a href="">Fantasy</a>
-            <a href="">Horror</a>
-            <a href="">Kids</a>
+          <a href="#">Italiano</a>
+          <a href="#">Magyar</a>
+          <a href="#">Nederlands</a>
+          <a href="#">Norsk</a>
+          <a href="#">Polski</a>
+          <a href="#">Português (Brasil)</a>
+          <a href="#">Português (Portugal)</a>
+          <a href="#">Română</a>
 
-            <a href="">Mystry and Thrillers</a>
-            <a href="">Romance</a>
-            <a href="">Science Fiction</a>
-          </div>
-        </li>
+          <a href="#">Suomi</a>
+          <a href="#">Svenska</a>
+          <a href="#">Türkçe</a>
+          <a href="#">Wikang Filipino</a>
+          <a href="#">Čeština</a>
+          <a href="#">Ελληνικά</a>
+          <a href="#">Русский</a>
+          <a href="#">עברית</a>
 
-        <li class="user">
-          <img
-            class="user"
-            src="./asset/YXNzZXRzL3VzZXItMTY4NjYzNDk1NS5wbmc=.png"
-            alt="profile"
-          />
-          <div class="drop">
-            <a href="">sign in</a>
-            <a href="">Help</a>
-            <a href="">Watch Anywhere</a>
-          </div>
-        </li>
-        <button class="join">Join Prime</button>
-      </ul>
-    </header>
+          <a href="#">العربية</a>
+          <a href="#">हिंदी</a>
+          <a href="#">தமிழ்</a>
+          <a href="#">తెలుగు</a>
+          <a href="#">ไทย</a>
+          <a href="#">한국어</a>
+          <a href="#">日本語</a>
+          <a href="#">简体中文</a>
+          <a href="#">繁體中文</a>
+        </div>
+      </li>
 
-    <main>
+      <li class="gird">
+        <a href=""><i class="fa-solid fa-grip"></i></a>
+        <div class="genres">
+          <a href="">Action and advanture</a>
+          <a href="">Anime</a>
+          <a href="">comedy</a>
+          <a href="">Documentry</a>
+          <a href="">Drama</a>
+          <a href="">Fantasy</a>
+          <a href="">Horror</a>
+          <a href="">Kids</a>
+
+          <a href="">Mystry and Thrillers</a>
+          <a href="">Romance</a>
+          <a href="">Science Fiction</a>
+        </div>
+      </li>
+
+      <li class="user">
+        <img class="user" src="./asset/YXNzZXRzL3VzZXItMTY4NjYzNDk1NS5wbmc=.png" alt="profile" />
+        <div class="drop">
+          <a href="">sign in</a>
+          <a href="">Help</a>
+          <a href="">Watch Anywhere</a>
+        </div>
+      </li>
+      <button class="join">Join Prime</button>
+    </ul>
+  </header>
+
+  <main>
+
+    <section id="banner">
       <div class="container">
-        <section id="banner">
-          <div class="movie-img">
-            <img
-              src="./asset/e975dcc2-b49c-4cdb-8381-a82d7dcd2c18._BR-6_AC_SX2000_FMwebp_.webp"
-              alt=""
-            />
-          </div>
+        <div class="movie-img">
+          <img src="./asset/e975dcc2-b49c-4cdb-8381-a82d7dcd2c18._BR-6_AC_SX2000_FMwebp_.webp" alt="" />
+        </div>
 
-          <div class="rank">
-            <i class="fa-solid fa-arrow-trend-up"></i>
-            <p>#7 in India</p>
+        <div class="rank">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <p>#7 in India</p>
+          <div class="c">
+            Lenin is an original Telugu film that was released in 2026 <br> and
+            later dubbed into Hindi.The village of Sri Ramapuram...
           </div>
+        </div>
 
-          <div class="down">
-            
-            <div class="c">
-              Lenin is an original Telugu film that was released in 2026 <br> and
-              later dubbed into Hindi.The village of Sri Ramapuram...
-            </div>
-          </div>
-          
-          <div class="button">
+
+
+        <div class="button">
 
           <button class="btn">Join Prime Watch Now</button>
 
-            <button class="btn-2"><i class="fa-solid fa-plus"></i></button>
+          <button class="btn-2"><i class="fa-solid fa-plus"></i></button>
 
-            <button class="btn-3"><i class="fa-solid fa-circle-info"></i></button>
+          <button class="btn-3"><i class="fa-solid fa-circle-info"></i></button>
+        </div>
+
+        <div class="discription">
+          <i class="fa-solid fa-bag-shopping bag"></i>
+          <p>Watch with a Prime membership</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="movie-section">
+      <div class="movies">
+        <div class="movie-title">
+          <h3>Recently added: Watch for Free</h3>
+          <h3>See more ></h3>
+        </div>
+
+        <div class="movie-card-wrapper">
+          <div class="movie-card">
+            <div class="movie-image">
+              <img src="asset/RAYAN" alt="movie-card" />
+            </div>
+            <div class="movie-hidden-detail">
+              <h1 class="card-title">RAAYAN</h1>
+              <h6 class="free">
+                <i class="fa-solid fa-check true"></i> Watch for Free
+              </h6>
+              <div class="card-buttons">
+                <button class="play-btn">
+                  <i class="fa-solid fa-play"></i> Play
+                </button>
+                <button class="film"><i class="fa-solid fa-film"></i></button>
+                <button class="add">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+              <div class="card-description">
+                Raayan, a devoted caretaker of his siblings,runs a small business to support them. The story
+                follows
+                his br struggle to protect his family from unforeseen circumstances.
+              </div>
+            </div>
           </div>
 
-          <div class="discription">
-            <i class="fa-solid fa-bag-shopping bag"></i>
-            <p>Watch with a Prime membership</p>
-          </div>  
+
+          <div class="movie-card-wrapper">
+            <div class="movie-card">
+              <div class="movie-image">
+                <img src="asset/Chandu.avif" alt="movie-card" />
+              </div>
+              <div class="movie-hidden-detail">
+                <h1 class="card-title">Chandu Champion</h1>
+                <h6 class="free">
+                  <i class="fa-solid fa-check true"></i> Watch for Free
+                </h6>
+                <div class="card-buttons">
+                  <button class="play-btn">
+                    <i class="fa-solid fa-play"></i> Play
+                  </button>
+                  <button class="film"><i class="fa-solid fa-film"></i></button>
+                  <button class="add">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div class="card-description">
+                  The inspiring chronicle of Chandu Champion, whose relentless determination paved the way for India's
+                  historic first individual Olympic gold medal.
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card-wrapper">
+              <div class="movie-card">
+                <div class="movie-image">
+                  <img src="asset/Pushpa.avif" alt="movie-card" />
+                </div>
+                <div class="movie-hidden-detail">
+                  <h1 class="card-title">Pushpa</h1>
+                  <h6 class="free">
+                    <i class="fa-solid fa-check true"></i> Watch for Free
+                  </h6>
+                  <div class="card-buttons">
+                    <button class="play-btn">
+                      <i class="fa-solid fa-play"></i> Play
+                    </button>
+                    <button class="film"><i class="fa-solid fa-film"></i></button>
+                    <button class="add">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                  <h2 class="card-rank">
+                    <i class="fa-solid fa-arrow-trend-up"></i> # spent 8 weeks in top 10
+                    Shows
+                  </h2>
+                  <div class="card-description">
+                    Pushpa Raj, a coolie-turned-smuggling kingpin, battles a merciless cop determined to dismantle his
+                    illegal red sanders operation in Andhra.
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="movie-card-wrapper">
+                <div class="movie-card">
+                  <div class="movie-image">
+                    <img src="asset/Drashiyam.webp" alt="movie-card" />
+                  </div>
+                  <div class="movie-hidden-detail">
+                    <h1 class="card-title">Drashiyam</h1>
+                    <h6 class="free">
+                      <i class="fa-solid fa-check true"></i> Watch for Free
+                    </h6>
+                    <div class="card-buttons">
+                      <button class="play-btn">
+                        <i class="fa-solid fa-play"></i> Play
+                      </button>
+                      <button class="film"><i class="fa-solid fa-film"></i></button>
+                      <button class="add">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                    <h2 class="card-rank">
+                      <i class="fa-solid fa-arrow-trend-up"></i> # 5 in suspense movie
+                    </h2>
+                    <div class="card-description">
+                      Seven years after the case related to Vijay and his family was closed, a series of unexpected
+                      events brings a truth to light that threatens to change everything for the Salgaonkars.
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="movie-popular">
+        <div class="movie-title-popular">
+          <h3>Popular Asian dramas: Watch for free</h3>
+          <h3>See More ></h3>
+        </div>
+
+        <div class="movie-card-wrapper-popular">
+          <div class="movie-card-popular">
+            <div class="movie-img-popular">
+              <img src="./asset/Punchayat.avif" alt="">
+            </div>
+            <div class="movie-card-hidden-detail-popular">
+              <h1 class="card-title">Punchayat</h1>
+              <h6><i class="fa-solid fa-check true"></i> Watch for free</h6>
+              <div class="card-buttons">
+                <button class="play-btn">
+                  <i class="fa-solid fa-play"></i> Play S1 E1
+                </button>
+                <button class="film"><i class="fa-solid fa-film"></i></button>
+                <button class="add">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+              <h2 class="card-rank">
+                <i class="fa-solid fa-arrow-trend-up"></i> # 4 in comedy TV shows
+              </h2>
+              <div class="card-description">
+                Season 2・In Phulera village, a rival emerges, escalating local politics as Abhishek finds himself
+                entangled, defending Pradhan's family.
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="movie-card-wrapper-popular">
+            <div class="movie-card-popular">
+              <div class="movie-img-popular">
+                <img src="./asset/Mirzapur.webp" alt="">
+              </div>
+              <div class="movie-card-hidden-detail-popular">
+                <h1 class="card-title">Mirzapur</h1>
+                <h6><i class="fa-solid fa-check true"></i> Watch for free</h6>
+                <div class="card-buttons">
+                  <button class="play-btn">
+                    <i class="fa-solid fa-play"></i> Play S1 E1
+                  </button>
+                  <button class="film"><i class="fa-solid fa-film"></i></button>
+                  <button class="add">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <h2 class="card-rank">
+                  <i class="fa-solid fa-arrow-trend-up"></i> # 9 in India
+                </h2>
+                <div class="card-description">
+                  Season 1・A mafia don, his power-hungry son, and a clash with a righteous family ignite a brutal war
+                  for control in the lawless city of Mirzapur.
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="movie-card-wrapper-popular">
+              <div class="movie-card-popular">
+                <div class="movie-img-popular">
+                  <img src="./asset/Family man.avif" alt="">
+                </div>
+                <div class="movie-card-hidden-detail-popular">
+                  <h1 class="card-title">The Family Fan</h1>
+                  <h6><i class="fa-solid fa-check true"></i> Watch for free</h6>
+                  <div class="card-buttons">
+                    <button class="play-btn">
+                      <i class="fa-solid fa-play"></i> Play S1 E1
+                    </button>
+                    <button class="film"><i class="fa-solid fa-film"></i></button>
+                    <button class="add">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                  <h2 class="card-rank">
+                    <i class="fa-solid fa-arrow-trend-up"></i> # 5 in action TV shows
+                  </h2>
+                  <div class="card-description">
+                    Season 1・Edgy thriller following a middle-class agent balancing his job at a secret national
+                    security cell and protecting his family.
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="movie-card-wrapper-popular">
+                <div class="movie-card-popular">
+                  <div class="movie-img-popular">
+                    <img src="./asset/bhay.avif" alt="">
+                  </div>
+                  <div class="movie-card-hidden-detail-popular">
+                    <h1 class="card-title">Bhay</h1>
+                    <h6><i class="fa-solid fa-check true"></i> Watch for free</h6>
+                    <div class="card-buttons">
+                      <button class="play-btn">
+                        <i class="fa-solid fa-play"></i> Play S1 E1
+                      </button>
+                      <button class="film"><i class="fa-solid fa-film"></i></button>
+                      <button class="add">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="card-description">
+                      Season 1・The story of Irene's investigation of Gaurav Tiwari's death leads the audience to find
+                      out a lot about his life.
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <section class="3rd-title">
+          <div class="movie">
+            <div class="movies-title">
+              <h3>Popular Bollywood Movies: Watch for Free</h3>
+              <h3>See more ></h3>
+            </div>
+          </div>
         </section>
 
 
+        <div class="movie-card-wrapper">
+          <div class="movie-card">
+            <div class="movie-image">
+              <img src="asset/golmal.avif" alt="movie-card" />
+            </div>
+            <div class="movie-hidden-detail">
+              <h1 class="card-title">Golmal</h1>
+              <h6 class="free">
+                <i class="fa-solid fa-check true"></i> Watch for Free
+              </h6>
+              <div class="card-buttons">
+                <button class="play-btn">
+                  <i class="fa-solid fa-play"></i> Play
+                </button>
+                <button class="film"><i class="fa-solid fa-film"></i></button>
+                <button class="add">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+
+              <div class="card-description">
+                A night on a yacht takes an unexpected turn when Gopal rescues a woman, leading to suspicions from his
+                wife and unwanted police attention.
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card-wrapper">
+            <div class="movie-card">
+              <div class="movie-image">
+                <img src="asset/housefull.avif" alt="movie-card" />
+              </div>
+              <div class="movie-hidden-detail">
+                <h1 class="card-title">Housefull 2</h1>
+                <h6 class="free">
+                  <i class="fa-solid fa-check true"></i> Watch for Free
+                </h6>
+                <div class="card-buttons">
+                  <button class="play-btn">
+                    <i class="fa-solid fa-play"></i> Play
+                  </button>
+                  <button class="film"><i class="fa-solid fa-film"></i></button>
+                  <button class="add">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+
+                <div class="card-description">
+                  A chaotic comedy ensues when four rival fathers attempt to marry their daughters to the son of a
+                  wealthy tycoon, only to encounter the real Jolly.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card-wrapper">
+              <div class="movie-card">
+                <div class="movie-image">
+                  <img src="asset/welcome.avif" alt="movie-card" />
+                </div>
+                <div class="movie-hidden-detail">
+                  <h1 class="card-title">Welcome</h1>
+                  <h6 class="free">
+                    <i class="fa-solid fa-check true"></i> Watch for Free
+                  </h6>
+                  <div class="card-buttons">
+                    <button class="play-btn">
+                      <i class="fa-solid fa-play"></i> Play
+                    </button>
+                    <button class="film"><i class="fa-solid fa-film"></i></button>
+                    <button class="add">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+
+                  <div class="card-description">
+                    A man falls in love with a beautiful woman but later discovers that her brothers are gangsters.
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="movie-card-wrapper">
+                <div class="movie-card">
+                  <div class="movie-image">
+                    <img src="asset/jub we met.avif" alt="movie-card" />
+                  </div>
+                  <div class="movie-hidden-detail">
+                    <h1 class="card-title">Jub We Met </h1>
+                    <h6 class="free">
+                      <i class="fa-solid fa-check true"></i> Watch for Free
+                    </h6>
+                    <div class="card-buttons">
+                      <button class="play-btn">
+                        <i class="fa-solid fa-play"></i> Play
+                      </button>
+                      <button class="film"><i class="fa-solid fa-film"></i></button>
+                      <button class="add">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+
+                    <div class="card-description">
+                      A depressed wealthy businessman finds his life changing after he meets a spunky and care-free
+                      young woman.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <section class="3rd-title">
+          <div class="movie">
+            <div class="movies-title">
+              <h3>Korean Dramas</h3>
+              <h3>See more ></h3>
+            </div>
+          </div>
+        </section>
+
+
+        <div class="movie-card-wrapper">
+          <div class="movie-card">
+            <div class="movie-image">
+              <img src="asset/twinkling watermelon.avif" alt="movie-card" />
+            </div>
+            <div class="movie-hidden-detail">
+              <h1 class="card-title">Twinkling Watermelon </h1>
+              <h6 class="free">
+                <i class="fa-solid fa-check true"></i> Watch for Free
+              </h6>
+              <div class="card-buttons">
+                <button class="play-btn">
+                  <i class="fa-solid fa-play"></i> Play S1 E1
+                </button>
+                <button class="film"><i class="fa-solid fa-film"></i></button>
+                <button class="add">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+
+              <div class="card-description">
+                Season 1・A youth romance drama unfolds as a CODA boy crash-lands in an unfamiliar past and joins a band.
+              </div>
+            </div>
+          </div>
+
+
+          <div class="movie-card-wrapper">
+            <div class="movie-card">
+              <div class="movie-image">
+                <img src="asset/Lowely runner.avif" alt="movie-card" />
+              </div>
+              <div class="movie-hidden-detail">
+                <h1 class="card-title">Lowely Runner </h1>
+                <h6 class="free">
+                  <i class="fa-solid fa-check true"></i> Watch for Free
+                </h6>
+                <div class="card-buttons">
+                  <button class="play-btn">
+                    <i class="fa-solid fa-play"></i> Play S1 E1
+                  </button>
+                  <button class="film"><i class="fa-solid fa-film"></i></button>
+                  <button class="add">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+
+                <div class="card-description">
+                  Season 1・An A-list celebrity who ended his life, and a fangirl who travels back in time to save him.
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="movie-card-wrapper">
+              <div class="movie-card">
+                <div class="movie-image">
+                  <img src="asset/Table of thr.avif" alt="movie-card" />
+                </div>
+                <div class="movie-hidden-detail">
+                  <h1 class="card-title">Table of The Nine Tailed</h1>
+                  <h6 class="free">
+                    <i class="fa-solid fa-check true"></i> Watch for Free
+                  </h6>
+                  <div class="card-buttons">
+                    <button class="play-btn">
+                      <i class="fa-solid fa-play"></i> Play S1 E1
+                    </button>
+                    <button class="film"><i class="fa-solid fa-film"></i></button>
+                    <button class="add">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                  <h2 class="card-rank">
+                    <i class="fa-solid fa-arrow-trend-up"></i> # 10 in Horro TV shows
+                  </h2>
+                  <div class="card-description">
+                    Season 1・A female producer tracks down a legendary nine tailed fox who has been living as a human.
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="movie-card-wrapper">
+                <div class="movie-card">
+                  <div class="movie-image">
+                    <img src="asset/Suspicious partner.avif" alt="movie-card" />
+                  </div>
+                  <div class="movie-hidden-detail">
+                    <h1 class="card-title">Suspicious Partner</h1>
+                    <h6 class="free">
+                      <i class="fa-solid fa-check true"></i> Watch for Free
+                    </h6>
+                    <div class="card-buttons">
+                      <button class="play-btn">
+                        <i class="fa-solid fa-play"></i> Play S1 E1
+                      </button>
+                      <button class="film"><i class="fa-solid fa-film"></i></button>
+                      <button class="add">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+
+
+                    <div class="card-description">
+                      Season 1・Noh Ji Wook is a brainiac prosecutor and Eun Bong Hee is a rookie justice department
+                      intern, who always seems to find herself in the most unfortunate and embarrassing situations.
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
-  </body>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    </section>
+  </main>
+</body>
+
 </html>
